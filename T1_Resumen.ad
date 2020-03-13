@@ -1,0 +1,82 @@
+== Modelo de caja
+=== Content: Aqui es donde se guarda el lo que se realizo preaviamente en html 
+=== Padding: Se refiere al espacio que hay entre el contenido y el borde
+=== Border: Linea que encierra el contenido y el padding
+=== Margin: Separa los elementos contendos en ella del resto de cajas que se hagan en un documento
+=== Outline: Establece todas las propiedades que contiene un elemento
+
+== Display
+=== Display-block: Estilo por defecto de cada elemento
+=== Display-inline: Coloca los elementos de izquierda a derecha en linea
+=== Display-none: oculta los elementos
+=== Display-inline-block: Acomoda los elementos horizontalmente respetando las medidas que se le han asignado
+
+== Box-sizing : Aquella que nos permite colocar un borde y relleno en nuestros elementos
+
+=== box-sizing: content-box: Es el que nos da por defecto el navegador, el cual no incluye
+
+=== box-sizing: border-box: Aquel que nos permite incluir un borde o un margin en los elementos
+
+
+== Flujo de documento : Es la forma en que se acomodan los elementos 
+
+== Tipos de posicionamiento
+
+=== static: comportamiento normal
+=== relative : permite que un elemento se desplace respecto a lo que hubiera sido su posición normal en el documento, por lo que su posicion en el fjuo queda reservada
+=== absolute: su posicion depende de su contenedor padre o del resto de los elementos, por lo que su posicion en el flujo queda removida
+=== fixed: elemento inamovible en el documento
+=== sticky: su posicion es normal en el documento pero al desplazar el navegador a cierta posicion cambia a un fixed
+
+== Unidades de medida: Utilizadas para asignar tamaños a los elementos 
+
+=== Absolutas: centimetros (cm), milimetros (mm) y pulgadas (In)
+=== Relativas: Son las más utilizadas al momento de hacer una documento de html
+=== px pixel= Reprenta respecto a la resolucion del dispositivo que se este utilizando para mostrar la pagina
+=== % porcent= Valor proporcional que le asigna el contenedor a esa propiedad
+
+==  Selectores basicos  
+=== * selector universal
+=== h1 selector de etiqueta
+=== #id de identificador
+=== .class de clase
+
+== Selectores de relacion
+=== > descendiente directo de un elemento especificado
+=== + hermano adyacente de un elemento especificado, sin importar que no este enseguida de este
+=== ~ hermano general de un elemento especificado
+
+== Pseudoselectores:  palabras clave que se le agregan a un selector 
+
+=== pseudoclase: Estados que puede tener un elemento
+=== Ejemplos
+=== - :Hover: Elemento cuando el usuario pase el cursor sobre el
+=== :first-child: selecciona el primer del elemento seleccionado
+=== :last-child: seleciona el ultimo del elemento seleccionado
+=== :only-child: selecciona si solo tiene un elemento unico
+
+=== pseudoelemento: selecciona partes de un elemento o hace referencia a su posicion en el documento
+=== ::first-letter: selecciona la primer letra de un elemento
+=== :: first-line: selecciona la primer linea
+=== ::before: selecciona el elemento que esta antes de un elemento
+=== ::after: selecciona un elemento que esta despues de un elemento 
+
+=== Cascada
+== Es la forma en que se resuelve el estilo que se le aplicara a ciertos elementos cuando hay muchos estilos compitiendo entre si, se compone de 4 niveles:
+=== El primer nivel es la importancia, es decir, el lugar donde se encuentra el estilo que se aplicara
+=== El segundo nivel hace referencia a la especificidad, que es el peso que pueden tener esos estilos
+=== Y finalmente tenemos el orden, que es cuando se tiene el mismo peso en especificidad y la mejor forma de definir cual se aplicara sera tomando el ultimo declarado
+
+== Especificidad: Se refiere al peso que tienen lo elementos
+
+=== Este se calcula:
+=== * Los elementos tienen un peso de 0001
+=== * Los elementos de clase tienen un peso de 0010
+=== * Los identificadores un peso de 0100
+=== * Las etiquetas de html tienen un peso de 1000
+
+
+
+
+
+
